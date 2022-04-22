@@ -1,0 +1,202 @@
+.header {
+    text-align: center;
+    background: #ff5e64;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.col-md-8{
+    font-family: 'Biz UDMincho';
+}
+
+.labelheader{
+    font-family: 'Secular One';
+    font-size: 30px;
+    /* color: ; */
+    line-height: 80px;
+    margin-left: 20px;
+}
+.skingoal{
+    text-align: center;
+}
+
+.skingoal label{
+    font-family: 'Saira Condensed';
+    font-size: 25px;
+    margin-right: 100px;
+}
+.skingoal input{
+    width: 20px;
+    height: 20px;
+    /* margin-left: 10px; */
+    /* align-items: center; */
+}
+
+.skingoal img{
+    width: 100px;
+    height: 100px;
+}
+
+.pilihskincare{
+    height: 50px;
+    width: 700px;
+    margin-left: 20px;
+}
+
+.pilihskincare option{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Staatliches';
+}
+/*=======Navbar===========*/
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#gambarHeader {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .active{
+      background-color: #04C5FE;
+  }
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  #cart{
+      float: right;
+  }
+
+/** isian dari produk*/
+.card-title{
+    font-family: 'Changa';
+    font-size: 50px;
+}
+
+.card-text{
+    font-family: 'Cuprum';
+    font-size: 25px;
+    font-weight: 200px;
+}
+
+#ingredients{
+    font-style: italic;
+}
+
+#harga{
+    font-weight: bold;
+}
+
+
+
+/*======header==========*/
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+*/
+/*=======Navbar===========*/
+/*
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#gambarHeader {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  #cart{
+      float: right;
+  }
+

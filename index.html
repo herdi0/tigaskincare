@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Changa&family=Cuprum&family=Martel:wght@300&family=Saira+Condensed:wght@100&family=Secular+One&family=Square+Peg&family=Staatliches&display=swap" rel="stylesheet">
+  <title>Tiga Skin Care</title>
+</head>
+
+<body>
+
+
+  <div class="header row">
+    <div class="scin-care-logo" class="col-md-2">
+      <a href="index.html"><img src="image/logo1.png" alt="Skin Care" ></a>
+    </div>
+    <div class="col-md-8" >
+      <h1>tiga</h1>
+      <p>Skin Care</p>
+    </div>
+    <div class="col-md-2"></div>
+
+  </div>
+
+
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="float: right;"><img src="image/cart.png" style="width: 20px; height: 20px;">    <label id="cartcount">0</label></button>
+
+
+
+  <section id="product">
+
+    <hr>
+    <form>
+      <section class="kulit wajah">
+        <label" class="labelheader">What's Your Skin Goals?</label>
+        <div class="skingoal">
+            <input type="checkbox" name="jenis kulit" id="antiAging" value="antiAging" onchange="check()">
+            <img src="./image/antiaging.png" style="width: 50px; height: 50px;"/>
+            <label>Anti-aging</label>
+            <input type="checkbox" name="jenis kulit" id="woundHealing" value="woundHealing" onchange="check()">
+            <img src="./image/woundhealing.jpeg" style="width: 50px; height: 50px;"/>
+            <label>Wound Healing</label>
+            <input type="checkbox" name="jenis kulit" id="acneFighting" value="acneFighting" onchange="check()">
+            <img src="./image/acnefighting.png" style="width: 50px; height: 50px;"/>
+            <label>Acne Fighting</label>
+            <input type="checkbox" name="jenis kulit" id="brightening" value="brightening" onchange="check()">
+            <img src="./image/brightening.png" style="width: 50px; height: 50px;"/>
+            <label>Brightening</label>
+        </div>
+      </section>
+      
+      <hr>
+
+      <section class="product">
+        <label for="product" class="labelheader">What Product Are You Looking For?</label>
+          <select name="product" id="optionskincare" onchange="check()" class="pilihskincare">
+            <option value="">--Please choose an option--</option>
+            <option value="cleanser">Cleanser</option>
+            <option value="toner">Toner</option>
+            <option value="serum">Serum</option>
+            <option value="moisturizer">Moisturizer</option>
+            <option value="sheetMask">Sheet Mask</option>
+            <option value="sunscreen">Sunscreen</option>
+            <option value="treatment">Treatment</option>
+            <option value="oils">Facial Oils</option>
+          </select>
+      </section>
+      
+      <hr>
+      
+      
+      
+      
+    </form>
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Shopping Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table id="cartTable" class="table">
+              
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="checkout()">Check Out</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="content"><div class="card mb-3" style="max-width: 1500px;"></div>
+    
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </section>
+</body>
+
+</html>
